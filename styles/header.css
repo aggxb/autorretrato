@@ -1,0 +1,46 @@
+.header-bg {
+  display: flex;
+  flex-direction: column;
+  background: var(--c1);
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  place-self: center;
+  width: 100%;
+  padding: 2rem;
+  gap: 60px;
+  background: var(--c1);
+  z-index: 2;
+}
+
+.header a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--c4);
+}
+
+.header a:hover {
+  color: var(--c3);
+  transition: color .3s;
+}
+
+.header-bg > h1 {
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5rem;
+  margin-top: 33vh;
+  font-size: 6rem;
+  text-align: center;
+  max-width: 20ch;
+  color: var(--c3);
+}
+
+@media (max-width: 540px) {
+  .header-bg > h1 {
+    font-size: 4rem;
+  }
+}

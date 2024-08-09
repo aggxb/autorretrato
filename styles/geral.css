@@ -1,0 +1,28 @@
+body {
+  font-family: 'Judson', serif;
+}
+
+:root {
+  --c1: #1d1616;
+  --c2: #2e2929;
+  --c3: #d3bb9e;
+  --c4: #f2ebe2;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 88px;
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+}
